@@ -1,0 +1,195 @@
+
+#detail{
+    display: inline-flex;
+}
+
+.profile_image{
+    border-radius: 50%;
+    height: 140px;
+    width: 140px;
+}
+.profile_text{
+    margin-top: 40px;
+    padding-left: 200px;
+    padding-right: 200px;
+    display: grid;
+    place-items: center; 
+}
+
+.headings{
+    margin: 30px;
+    width: 100%;
+    text-align:center; font-size: 24px;
+}
+.main{
+    width: 100%;
+    background-color: rgb(218, 232, 247);
+    padding: 20px;
+
+}
+#largeText{
+    line-height: 1;
+    text-align: center;
+}
+#cv{
+    place-items: center;
+    padding: 8px;
+    border-radius: 10px;
+    border-color: chocolate;
+}
+#cv:hover{
+    border-style: groove;
+    background-color:rgb(196, 51, 63);
+}
+#pro{
+    border-radius: 5%;
+    border-color: rgb(245, 101, 5);
+    background-color: rgb(226, 39, 39); 
+    height: 50px;
+    width: 70%;
+    float: right;
+    margin: 10px;
+    display: inline-flex;
+    margin-right: 40px;
+    padding-left: 5px;
+ 
+   
+}
+#para{
+    font-weight: bold;
+    margin: 10px;
+}
+  
+#firstView{
+    display: flex;
+    flex-wrap: wrap;
+}
+
+#imagegroup{
+    margin-left: 5px;
+    border-radius: 50%;
+    height: 20px;
+}
+#edumain{
+   
+    background-color: rgb(243, 214, 133);
+    margin-top: 100px;
+   padding: 10px;
+    
+}
+
+#paragraph{
+    margin-left: 120px;
+    margin-top: 20px;
+}
+#dd{
+    margin-left: 80px;
+    margin-top: 10px;
+    border-radius: 50%;
+    height: 200px;
+    width: 280px;
+    background-color: rgb(245, 119, 88);
+    padding-top: 60px;
+    padding-left: 25px;
+    padding-right: 20px;
+}
+
+#E{
+    margin-top: 80px;   
+}
+#hh3{
+    padding-left: 140px;
+}
+
+.flipster {
+    width: 100%;    
+    margin: 0 auto;
+    height: 400px;
+}
+#flip_item{
+    width: 100%;
+    height: 300px;
+}
+#flip_image{
+    width: 100%;
+    
+}
+.card {
+    width: 200px;
+    height: 350px;
+    border-radius: 8px;
+    box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1); /* Elevation effect */
+    overflow: hidden;
+    display: flex;
+    flex-direction: column;
+}
+
+.image_container {
+    height: 60%; 
+    flex: 1;
+    position: relative;
+    overflow: hidden;
+}
+
+.image_container img {
+    width: 100%;
+    height: 100%; /* Image takes up half of the card height */
+    object-fit: cover;
+}
+
+.text_container {
+    width: 100%;
+    padding: 4px;
+    height: 40%;
+    background-color: #ddd9d9; /* Background color for the text container */
+}
+
+.vertical_text {
+    text-align: left;
+    line-height: 1;
+    font-size: 8px;
+    color: #0a0a0a;
+    
+}
+
+/* For experience */
+.experience_container {
+    width: 100%;
+    align-items: center;
+    margin: 60px;
+  }
+  .experience_card {
+    margin-top: 10px;
+    width: 80%;
+    padding: 6px;
+    background-color: rgb(250, 248, 248);
+    border-radius: 8px;
+    box-shadow: 4px 4px 4px rgba(99, 98, 98, 0.1);
+    
+  }
+  .experience_card img {
+    margin: 10px;
+    width: 10%;
+    border-radius: 50%;
+  }
+  .experience_card .details {
+    width: 90%;
+    display: flex;
+  }
+  .experience_card .details h2 {
+    line-height: 1;
+    font-size: 12px;
+    color: red;
+  }
+  .experience_card .details p {
+    line-height: 1;
+    font-size: 12px;
+    color: black;
+  }
+  .experience_div{
+    margin-left: 20px;
+  }
+
+
+
+  
