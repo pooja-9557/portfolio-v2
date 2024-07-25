@@ -22,7 +22,7 @@
     text-align:center; font-size: 24px;
 }
 .main{
-    width: 100%;
+   
     background-color: rgb(218, 232, 247);
     padding: 20px;
 
@@ -154,13 +154,12 @@
 
 /* For experience */
 .experience_container {
-    width: 100%;
     align-items: center;
     margin: 60px;
   }
   .experience_card {
-    margin-top: 10px;
-    width: 80%;
+    margin-top: 20px;
+    width: 100%;
     padding: 6px;
     background-color: rgb(250, 248, 248);
     border-radius: 8px;
@@ -189,6 +188,8 @@
   .experience_div{
     margin-left: 20px;
   }
+  
+  
 
 
 
