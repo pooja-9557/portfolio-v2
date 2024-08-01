@@ -11,8 +11,23 @@
     <!-- jQuery CDN -->
     <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
     <style>
+
+.parent {
+    display: flex;
+    justify-content: center; /* centers horizontally */
+    padding: 20px;
+}
+
+.center-div {
+    margin: 20px;
+    width: 60%;
+    font-size: 12px;
+    color: rgb(73, 68, 68);
+}
         /* Additional CSS for carousel */
         .project-carousel {
+            width: 80%;
+            margin: 0 auto;
             overflow: hidden;
             white-space: nowrap;
         }
@@ -26,10 +41,17 @@
 
         .project-carousel ul li {
             display: inline-block;
-            width: 300px;
-            /* Adjust card width as needed */
+            width: calc(80% / 5 - 20px);
             margin-right: 20px;
-            /* Adjust spacing between cards as needed */
+        }
+
+        .project-carousel ul li:last-child {
+            margin-right: 0;
+        }
+
+        .project-carousel .card {
+            width: 100%;
+            box-sizing: border-box;
         }
     </style>
 </head>
@@ -73,28 +95,7 @@
     </div>
     <div class="project-carousel">
         <ul>
-            <li>
-                <div class="flip_item">
-                    <div class="card">
-                        <div class="image_container">
-                            <img src="VGLD.jpeg" alt="Image 1">
-                        </div>
-                        <div class="text_container">
-                            <p class="vertical_text"><a
-                                    href="https://play.google.com/store/apps/details?id=com.guru.vgld">https://play.google.com/store/apps/details?id=com.guru.vgld</a>
-                            </p>
-                            <span class="vertical_text">
-                                <spam style="color: brown;">VGLD LMS (Virtual Guide Learning and Development)</spam>
-                                <br>It is a cutting-edge learning management system designed to streamline education
-                                delivery, empower instructors, and engage learners.
-                            </span>
-                            <p class="vertical_text"> Use-> Android Studio, JAVA</p>
-                            <p class="vertical_text"> Features-> API implementation, JSON Mapping, Firebase
-                                authentication, Video Cipher etc.</p>
-                        </div>
-                    </div>
-                </div>
-            </li>
+            
             <li>
                 <div class="flip_item">
                     <div class="card">
@@ -133,6 +134,28 @@
                             </span>
                             <p class="vertical_text"> Use-> Visual Studio Code, HTML, CSS, JAVA Script</p>
 
+                        </div>
+                    </div>
+                </div>
+            </li>
+            <li>
+                <div class="flip_item">
+                    <div class="card">
+                        <div class="image_container">
+                            <img src="VGLD.jpeg" alt="Image 1">
+                        </div>
+                        <div class="text_container">
+                            <p class="vertical_text"><a
+                                    href="https://play.google.com/store/apps/details?id=com.guru.vgld">https://play.google.com/store/apps/details?id=com.guru.vgld</a>
+                            </p>
+                            <span class="vertical_text">
+                                <spam style="color: brown;">VGLD LMS (Virtual Guide Learning and Development)</spam>
+                                <br>It is a cutting-edge learning management system designed to streamline education
+                                delivery, empower instructors, and engage learners.
+                            </span>
+                            <p class="vertical_text"> Use-> Android Studio, JAVA</p>
+                            <p class="vertical_text"> Features-> API implementation, JSON Mapping, Firebase
+                                authentication, Video Cipher etc.</p>
                         </div>
                     </div>
                 </div>
@@ -194,7 +217,17 @@
     </script>
     <h1 class="headings">EXPERIENCE </h1>
     <div class="experience_container">
-       
+        <div class="experience_card">
+            <div class="details">
+                <img src="miet.png" alt="88academics">
+                <div class="experience_div">
+                    <h2>Lecturer<br><span style="font-size: 10px;color: black; font-weight: normal;">July 2024
+                            - Present<br> I'm currently teaching at MIET Institute in Shikhsa Nagar, Haldwani, where I provide IT lectures to BCA students. I love learning new technologies and approaches, and I find great joy in the IT sector</span></h2>
+                    <p style="font-size: 10px;"></p>
+
+                </div>
+            </div>
+        </div>
         <div class="experience_card">
             <div class="details">
                 <img src="88academics.jpg" alt="88academics">
@@ -211,12 +244,17 @@
         </div>
     </div>
     <h1 class="headings">ABOUT ME</h1>
-    <div style="margin-right: 180px;margin-top: 20px;margin-left: 180px;">
-        <p style="font-size: 14px;color: rgb(12, 12, 12);">
-            I completed my MCA in 2023, residing in Haldwani, Nainital. I have hands-on experience in Android
-            development and a strong passion for mobile and Java development. I graduated with a B.Sc in Computer
-            Science from CCSU in 2021 and completed my schooling in 2018. Being a good learner with a positive attitude
-            and a strong work ethic, I am confident in my abilities and eager to excel in my work.</p>
+    <div class="parent">
+        <div >
+            <img src="me.png">
+        </div>
+        <div class="center-div">
+            <p>Hi! I'm Pooja Tiwari, a passionate and dedicated software developer with a strong background in computer science. I completed my Master of Computer Applications (MCA) from Amrapali University in 2023. Prior to that, I graduated with a Bachelor of Science in Computer Science from CCS University in Meerut. My schooling was completed at Vishal Inter College.
+            <br>
+            I belong to a beautiful place known as Almora in Uttarakhand, India. That place, whose nature represents the beauty of life, reflects in me. It showcases simplicity, sacrifices, love, and so much more. My journey into the world of technology began with a deep interest in learning new technologies and continually seeking out new approaches and methodologies.
+            <br>
+            For me, the IT sector represents a perfect blend of challenge and creativity. I truly love to code and am always excited to build something new.</p>
+        </div>
     </div>
 </body>
 
